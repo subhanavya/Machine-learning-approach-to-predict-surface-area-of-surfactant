@@ -95,9 +95,9 @@ python src\train_smiles.py
 Example snippet from results file:
 
     Model        R²      RMSE
-    XGBoost     0.78    0.45
-    RandomForest 0.72   0.52
-    SVM         0.65    0.61
+    XGBoost     0.7436    3.1414
+    RandomForest 0.7229   3.2655
+    SVM         0.5667    4.0832
 
     Best model: XGBoost
 
