@@ -84,7 +84,7 @@ pip install -r requirements.txt
 ### Run training & comparison
 
 ``` bash
-python train_optuna_compare.py
+python src\train_smiles.py
 ```
 
 ### Expected output
@@ -101,17 +101,4 @@ Example snippet from results file:
 
     Best model: XGBoost
 
-------------------------------------------------------------------------
-
-## Project Description (Portfolio-Ready)
-
-**Machine Learning Approaches for Surfactant Property Prediction (Feb
-2025 -- Present)**\
-- Developed a **chemoinformatics pipeline** to predict surfactant
-properties from SMILES using molecular fingerprints and descriptors\
-- Implemented **XGBoost, Random Forest, and SVM models** with
-Optuna-driven hyperparameter tuning\
-- Achieved **R² up to 0.78** with XGBoost, demonstrating its superior
-ability to capture structure--property relationships\
-- Delivered a reproducible workflow with automated results comparison
-and model selection
+-----------------------------------------------------------------------
