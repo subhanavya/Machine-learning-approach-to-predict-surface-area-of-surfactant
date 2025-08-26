@@ -1,0 +1,22 @@
+Model Comparison Results
+==================================================
+XGBoost:
+  R   : 0.7436
+  RMSE : 3.1414
+  Best Params: {'n_estimators': 457, 'max_depth': 7, 'learning_rate': 0.010935157419706005, 'subsample': 0.9757278950893982, 'colsample_bytree': 0.8050334180209011, 'gamma': 1.1055174076010514, 'min_child_weight': 1}
+
+RandomForest:
+  R   : 0.7229
+  RMSE : 3.2655
+  Best Params: {'n_estimators': 329, 'max_depth': 28, 'min_samples_split': 6, 'min_samples_leaf': 2}
+
+SVM:
+  R   : 0.5667
+  RMSE : 4.0832
+  Best Params: {'C': 9.165743481473568, 'epsilon': 0.8601300139854984, 'kernel': 'rbf'}
+
+==================================================
+Best Model: XGBoost
+  R   : 0.7436
+  RMSE : 3.1414
+  Params: {'n_estimators': 457, 'max_depth': 7, 'learning_rate': 0.010935157419706005, 'subsample': 0.9757278950893982, 'colsample_bytree': 0.8050334180209011, 'gamma': 1.1055174076010514, 'min_child_weight': 1}
